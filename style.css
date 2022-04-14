@@ -1,0 +1,36 @@
+
+.container{
+    display:flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+    padding:0px;
+    
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+.item{
+    border:2px solid blue;
+    flex:2 2 auto;
+    
+}
+body{
+    height: 100vh;
+}
+header, footer{
+    flex: .75 .75 auto;
+    background-color: #1F2937;
+}
+#navy{
+    background-color: #1F2937;
+}
+#white1, #whie2{
+    background-color: white;
+}
+#gray{
+    background-color: #E5E7EB;
+}
