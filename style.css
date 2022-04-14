@@ -16,17 +16,20 @@ body{
 }
 
 .item{
-    border:2px solid blue;
+    
     flex:2 2 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 /* header */
 .headercontent{
     display: flex;
-    width:50%;
-    
+    width:65%;
     align-items: center;
+    justify-content: center;
     
 }
 
@@ -43,19 +46,59 @@ header, footer{
     display: flex;
     justify-content: center;
     
+    
 }
-.link{
+
+.link{   
     font-size: 18px;
     color:#E5E7EB;
     margin:8px;
 }
 
 
-
+/* Navy Content Box*/
 
 #navy{
     background-color: #1F2937;
 }
+.contentnavy{
+    display: flex;
+    width:65%;
+    justify-content:flex-start;
+}
+.box{
+    margin:20px;
+    color:white;
+    flex:1 1 0;
+    
+    
+}
+.box#longfrog{
+    display: flex;
+    justify-content: center;
+    
+}
+#awsome{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+button{
+    margin-top:10px;
+    background-color:blue;
+    border:5px ;
+    border-radius: 3px;
+    color:white;
+    width:100px;
+    height:30px;
+}
+
+
+
+
+
+
+
 #white1, #whie2{
     background-color: white;
 }
