@@ -1,4 +1,4 @@
-
+/* frame work */
 .container{
     display:flex;
     
@@ -12,19 +12,47 @@
 body{
     padding:0px;
     margin:0px;
+    height:100vh;
 }
+
 .item{
     border:2px solid blue;
     flex:2 2 auto;
     
 }
-body{
-    height: 100vh;
+
+/* header */
+.headercontent{
+    display: flex;
+    width:50%;
+    
+    align-items: center;
+    
 }
+
+#header_logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:#F9FAF8;
+    margin-right: auto;
+}
+
 header, footer{
-    flex: .75 .75 auto;
+    flex: .5 .5 auto;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    
 }
+.link{
+    font-size: 18px;
+    color:#E5E7EB;
+    margin:8px;
+}
+
+
+
+
 #navy{
     background-color: #1F2937;
 }
