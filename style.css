@@ -87,7 +87,7 @@ header, footer{
     font-size: 48px;
 }
 
-button{
+button#top{
     margin-top:10px;
     background-color:blue;
     border:5px ;
@@ -103,13 +103,12 @@ button{
 #white1, #white2{
     
     background-color: white;
-   
-    flex-direction: column;
     justify-content: center;
     
 }
 #white1{
     align-items: flex-end;
+    flex-direction: column;
 
 }
 .titlee{
@@ -180,4 +179,30 @@ div#name{
 .flag{
     background-color: blue;
     width:65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.calltoaction{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    height: 40px;
+    width: 100px;
+    
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
