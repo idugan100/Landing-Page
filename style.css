@@ -1,6 +1,6 @@
 /* frame work */
 .container{
-    display:flex;
+    
     
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
 
 .item{
     
-    flex:2 2 auto;
+    height: 400px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ body{
 }
 
 header, footer{
-    flex: .5 .5 auto;
+    height:72px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -78,7 +78,10 @@ header, footer{
     display: flex;
     justify-content: center;
     
+    
+    
 }
+
 #awsome{
     font-weight: bolder;
     font-size: 48px;
@@ -98,18 +101,28 @@ button{
 
 /*white section one*/
 #white1, #white2{
+    
     background-color: white;
+   
+    flex-direction: column;
+    justify-content: center;
+    
 }
-.title{
+#white1{
+    align-items: flex-end;
+
+}
+.titlee{
     font-weight: bolder;
     font-size: 36px;
     text-align: center;
-    margin:10px;
+    margin:25px;
+  
 }
 .panelwrap{
     display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
 }
 .item#white1{
     display: block;
@@ -118,16 +131,53 @@ button{
     margin:20px;
     display: flex;
     flex-direction: column;
+    width:275px;
+    
 }
 .panel img{
-    border:2px solid blue;
-    width:225px;
-    height: 150px;
+    border:10px solid blue;
+    border-radius: 25px;
+    width:275px;
+    height: 180px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.panel div{
+    text-align: center;
+    font-size: 18px;
 }
 
 
 
-
+/* grey content */
 #gray{
     background-color: #E5E7EB;
+    height: 300px;
+    
+}
+.quotewrap{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+}
+.item#gray div#quote{
+    font-size: 30px;
+    font-style: italic;
+    color:#1F2937;
+}
+div#name{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 15px;
+    align-self: flex-end;
+}
+
+/*white two*/
+#white2{
+    align-items: center;
+    height: 350px;
+}
+.flag{
+    background-color: blue;
+    width:65%;
 }
